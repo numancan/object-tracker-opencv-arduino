@@ -24,7 +24,7 @@ camera index in the **Tracker.py** .  If there is a single camera connected, jus
 ```python
 cap=cv2.VideoCapture(0)
 ```
-* Upload servoControl.ino to arduino and run the **Tracker.py**, set trackbars then, press "ESC" key.
+* Upload servoControl.ino to arduino and run the **Tracker.py**, set trackbars then, press "ESC" key for tracking.
 ![](src/hsv-trackbars.gif)
 
 
