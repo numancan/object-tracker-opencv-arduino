@@ -15,7 +15,7 @@ You have to install
 library for Python 3.
 
 
-## How to run
+## Usage
 * Firstly, you have to change serial port and
 ```python
 arduino = serial.Serial('COM7', 9600)
@@ -28,5 +28,5 @@ cap=cv2.VideoCapture(0)
 ![](src/hsv-trackbars.gif)
 
 
-## References
+## Acknowledgments
 * [Trackbar as the Color Palette](https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_gui/py_trackbar/py_trackbar.html)
