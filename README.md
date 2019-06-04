@@ -6,13 +6,12 @@ In this project, I wanted to make simple object tracker controlling a camera abo
 ## Getting Started
 
 
-### Prerequisites
-
-You have to install
-* OpenCV
-* Numpy
-
-library for Python 3.
+### Dependencies
+This project requires the following dependencies:
+* [Python](https://www.python.org/downloads)(>= 3)
+* [NumPy](http://www.numpy.org)
+* [OpenCV](https://opencv.org/releases/)
+* [Arduino](https://www.arduino.cc/en/Main/Software)
 
 
 ## Usage
@@ -24,7 +23,7 @@ camera index in the **Tracker.py** .  If there is a single camera connected, jus
 ```python
 cap=cv2.VideoCapture(0)
 ```
-* Upload servoControl.ino to arduino and run the **Tracker.py**, set trackbars then, press "ESC" key for tracking.
+* Upload servoControl.ino to arduino and run the **Tracker.py**, set trackbars then, press "ESC" key to tracking.
 ![](src/hsv-trackbars.gif)
 
 
